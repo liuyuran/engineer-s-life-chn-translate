@@ -3,7 +3,7 @@
 	group: "75733624F98E619E"
 	order_index: 0
 	filename: "first_steps"
-	title: "人生的第一步"
+	title: "新手上路"
 	icon: {
 		id: "notreepunching:flint_axe"
 		Count: 1b
@@ -18,8 +18,8 @@
 			x: -7.5d
 			y: -4.5d
 			description: [
-				"Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here)."
-				"Sticks can also be picked up off the ground in twig piles by right clicking them."
+				"树叶可以徒手采集（这本就是原版特性，但是依然需要划重点）。"
+				"树枝也可以通过右键地上的树枝堆得到。"
 			]
 			dependencies: ["0000000000000F88"]
 			id: "0000000000000003"
@@ -46,9 +46,9 @@
 			x: -6.0d
 			y: -4.5d
 			description: [
-				"Gravel can be mined without a tool, and mining it enables you to aquire flint."
+				"沙砾可以徒手开采，开采它有一定几率获得燧石。"
 				""
-				"Also, flint can be gained by picking up the stones found on the ground throughout the world. By holding a stone in both of your hands and holding right click you will nap the stones which has a chance to produce flint. These stones can also be combined to make cobble blocks."
+				"顺带一提，燧石有很低的概率从石头中开采出来，（此句存疑→）双手持有石头时按住右键也有概率获得燧石。另外，燧石可以合成燧石块。"
 			]
 			dependencies: ["0000000000000003"]
 			id: "0000000000000005"
@@ -75,9 +75,9 @@
 			x: -4.5d
 			y: -4.5d
 			description: [
-				"In order to create flint shards, necessary for flint tools, flint must be knapped. In order to do this, a piece of flint, and a stone type block is required."
+				"如果要合成燧石工具，你需要先获得燧石碎片，燧石碎片就是燧石碎裂后的产物。"
 				""
-				"Simply right click the flint on the stone - you will hear a tap as you bash the flint on the rock. Keep knapping, and flint will be consumed, with a chance to produce two flint shards."
+				"做法很简单 —— 手持燧石，右键点击石头即可，你会听到比较特别的敲击声，多敲几次燧石就会碎裂，同时有几率获得两个碎片。"
 			]
 			dependencies: ["0000000000000005"]
 			id: "0000000000000008"
@@ -97,9 +97,9 @@
 			x: -3.0d
 			y: -4.5d
 			description: [
-				"A Flint Knife can now be crafted, allowing you to harvest plant materials for plant fibers and craft plant string."
+				"现在你可以制造燧石刀了，它可以让你得以采集植物纤维并合成植物线。"
 				""
-				"Instead of wooden or stone tools, the first tools you will be able to create are flint ones. They generally require flint shards, sticks, and plant string, which can all be obtained without any tools (and the latter with any knife)."
+				"与原版不同，你无法直接合成木制和石制工具，你能制作的第一套工具是燧石级别的。其需要的材料包括木棍、燧石碎片和植物线，而这三者均是无法徒手采集的材料。"
 				""
 				"- When breaking grass, there is a chance that plant fiber will get produced."
 				"- You can now break plant type blocks and receive their drops."
@@ -142,10 +142,10 @@
 			x: -1.5d
 			y: -3.0d
 			description: [
-				"A Flint Axe can enable you to collect wood and build a crafting table."
+				"燧石斧让你得以收集木材并建造一个合成桌。"
 				""
-				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it."
-				"To craft a stick, put an axe in the upper left corner and a log on the right."
+				"另外，斧类工具可以用来合成木板，将其与原木同时放在合成窗口即可，斧头在上而原木在下。"
+				"而如果要合成木棍，则需要斧头在左而原木在右。"
 			]
 			dependencies: ["0000000000000014"]
 			id: "000000000000000C"
@@ -174,10 +174,10 @@
 			]
 		}
 		{
-			title: "Flint Digging"
+			title: "燧石工具"
 			x: 1.5d
 			y: -1.5d
-			description: ["A Flint Pickaxe and Shovel will serve as early game excavation and mining tools."]
+			description: ["燧石斧和燧石铲是早期游戏中重要的挖掘和采集工具。"]
 			dependencies: ["0000000000000030"]
 			id: "000000000000000E"
 			tasks: [
@@ -215,7 +215,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["A basic weapon you can create to gain combat skill and protect yourself."]
+			description: ["一把可以提升战斗技能提升，顺便还能防身的基础武器。"]
 			dependencies: ["0000000000000030"]
 			id: "0000000000000010"
 			tasks: [{
@@ -1733,13 +1733,13 @@
 			]
 		}
 		{
-			title: "Hello There!"
+			title: "快看这里！"
 			x: -13.0d
 			y: -4.5d
 			description: [
-				"Welcome to the Engineer's Life 2 modpack!"
+				"欢迎游玩工程师的旅程 2整合包！"
 				""
-				"This is your guide/quest book. Here you can find some sort of guided progression with rewards and some explanations."
+				"这是作者给你的攻略/任务书，你可以在这里找到一些经过精心设计并带有奖励机制的引导流程。"
 			]
 			size: 4.0d
 			id: "0000000000000117"
@@ -1971,20 +1971,20 @@
 			}]
 		}
 		{
-			title: "Quest Types and Rewards"
+			title: "任务类型和奖励"
 			icon: "minecraft:writable_book"
 			x: -9.5d
 			y: -4.5d
 			description: [
-				"Quests come in a number of different types in this pack."
+				"整合包内存在多种不同的任务类型。"
 				""
-				"You can have quests like the previous quest for simply traveling to a destination or by traveling a certain number of blocks."
+				"你可以像上一层任务一样，简单的旅行到某处或者走过一定数量的格子。"
 				""
-				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				"但更多的可能是将指定数量的特定物品放入背包，如果你满足了任务完成条件，你会在右上角看到信息提示。"
 				""
-				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
+				"最后一种类型就十分简单了，只需要你点击复选框即可，它的目的就是为你展示一些文字信息。"
 				""
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"比如这个任务就是最后一种类型，请点击复选框并领取你的奖励吧。"
 			]
 			dependencies: ["0000000000000117"]
 			size: 2.0d

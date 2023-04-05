@@ -3,7 +3,7 @@
 	group: "75733624F98E619E"
 	order_index: 1
 	filename: "mining_progression"
-	title: "Tools of the Ancients"
+	title: "古代工具"
 	icon: {
 		id: "tetra:magmatic_cell"
 		Count: 1b
