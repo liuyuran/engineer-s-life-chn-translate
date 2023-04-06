@@ -101,11 +101,11 @@
 				""
 				"与原版不同，你无法直接合成木制和石制工具，你能制作的第一套工具是燧石级别的。其需要的材料包括木棍、燧石碎片和植物线，而这三者均是无法徒手采集的材料。"
 				""
-				"- When breaking grass, there is a chance that plant fiber will get produced."
-				"- You can now break plant type blocks and receive their drops."
-				"- The knife can be crafted with several plant items to produce plant fiber."
+				"- 破坏杂草时，会有一定几率掉落植物纤维。"
+				"- 你现在可以破坏植物，并获得对应的收获了。"
+				"- 这种小刀的原材料就部分来自于植物材料。"
 				""
-				"(You do not have to harvest the grass with the flint knife to get plant fibers.)"
+				"（当然，获取植物纤维不只是有割草这一种方式。）"
 			]
 			dependencies: ["0000000000000008"]
 			id: "000000000000000A"
@@ -252,15 +252,15 @@
 			x: -3.5d
 			y: -1.5d
 			description: [
-				"The fire starter is a primitive tool which is used to create a campfire. In order to use:"
+				"打火器是用来点燃营火的工具，你可以这样使用它："
 				""
-				"• Throw (Q) the following items on the ground, in the space where you want to create the campfire:"
-				"  - One wooden fuel item (any log or plank)"
-				"  - Three pieces of kindling (sticks, saplings, leaves, or string)"
+				"• 将一些燃料扔在你想要点燃营火的位置上（默认键位为Q），可用的燃料有："
+				"  - 一个木料（原木和木板均可）"
+				"  - 三个可燃物（木棍、树苗、树叶或者线）"
 				""
-				"• Then, right click and hold the fire starter pointing at the pile of items. Smoke particles will appear, and after a short while, a campfire will appear and the items will be consumed."
+				"• 然后，对着燃料按住右键，地面就会腾起烟雾特效，再等片刻，营火就会出现在目标地点，而上面的燃料则会被消耗。"
 				""
-				"The fire starter can also be used to relight a campfire, or light fires in the same way: right click and hold the fire starter at the desired location. Smoke particles will appear and after a short while the fire will be started."
+				"打火器也可以用于重新点燃营火，又或者点燃别的什么东西，用法就如同建造营火一样，只是不需要额外的燃料。"
 			]
 			dependencies: ["0000000000000030"]
 			id: "0000000000000012"
@@ -292,7 +292,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
-			description: ["Plant fiber can be crafted into plant string, which is necessary for the creation of other flint tools."]
+			description: ["植物纤维可以合成植物线，后者是燧石工具的原材料之一。"]
 			dependencies: ["000000000000000A"]
 			id: "0000000000000014"
 			tasks: [
@@ -314,10 +314,10 @@
 			}]
 		}
 		{
-			title: "Bones"
+			title: "骨头"
 			x: -1.5d
 			y: 1.5d
-			description: ["Bet you will want to stop these guys from making you a pin cushion."]
+			description: ["你不会希望这些东西散落在地上扎脚的。"]
 			dependencies: ["0000000000000010"]
 			id: "0000000000000025"
 			tasks: [{
@@ -334,10 +334,10 @@
 			}]
 		}
 		{
-			title: "Gunpowder"
+			title: "火药"
 			x: -0.5d
 			y: 1.0d
-			description: ["Some good old fashioned boom boom dust."]
+			description: ["能引发爆炸的粉末。"]
 			dependencies: ["0000000000000010"]
 			id: "0000000000000027"
 			tasks: [{
@@ -356,7 +356,7 @@
 		{
 			x: 14.5d
 			y: -0.5d
-			description: ["Will light up all those dark places so you don't have to place torches everywhere."]
+			description: ["可以点亮你周围的区域，所以你不再需要在附近插满火把了。"]
 			dependencies: ["0000000000000045"]
 			id: "0000000000000029"
 			tasks: [{
@@ -393,10 +393,10 @@
 			]
 		}
 		{
-			title: "Furnace"
+			title: "熔炉"
 			x: 3.0d
 			y: -1.5d
-			description: ["Time to cook up some food and basic materials!"]
+			description: ["是时候烧制食物和基础材料了！"]
 			dependencies: ["000000000000000E"]
 			id: "000000000000002C"
 			tasks: [{
@@ -424,10 +424,10 @@
 			]
 		}
 		{
-			title: "Chest"
+			title: "箱子"
 			x: 1.5d
 			y: -6.0d
-			description: ["Store all that junk you know you are carrying!"]
+			description: ["存放你身上放不下的垃圾！"]
 			dependencies: ["0000000000000030"]
 			id: "000000000000002E"
 			tasks: [{
