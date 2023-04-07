@@ -465,8 +465,8 @@
 			x: -1.5d
 			y: -1.5d
 			description: [
-				"The crafting table will open you up to many new complex recipes. You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory."
-				"Try it with an Axe because you may need a couple!"
+				"合成桌可以让你使用海量的完整配方，你可以通过收藏功能来使用背包里的材料快速填充合成格子，只需要在JEI界面里将鼠标定位在指定配方，又或者在背包里定位在指定物品，然后按下A键，即可在背包界面的左边看到这些配方。"
+				"来，试试收藏一下斧子配方，因为你刚好需要它！"
 			]
 			dependencies: ["000000000000000C"]
 			id: "0000000000000030"
@@ -483,7 +483,7 @@
 			}]
 		}
 		{
-			title: "Wooden Shears"
+			title: "木剪刀"
 			icon: {
 				id: "woodenshears:wooden_shears"
 				Count: 1b
@@ -493,7 +493,7 @@
 			}
 			x: 0.0d
 			y: 0.0d
-			description: ["A weaker pair of shears, but still handy early game before you can get standard shears."]
+			description: ["一把脆弱的剪刀，但在获得真正的剪刀之前，你似乎别无选择。"]
 			dependencies: ["0000000000000030"]
 			id: "0000000000000032"
 			tasks: [
@@ -531,7 +531,7 @@
 		{
 			x: 20.0d
 			y: -3.0d
-			description: ["Saws are weaker alternatives to axes, and are able to be crafted from iron, gold or diamond, however they're main use is as a crafting tool to create wooden planks and sticks. Vanilla recipes for wooden planks and sticks now require a saw or axe, but the yield produced is doubled when using a saw."]
+			description: ["锯子是斧子的下位替代品，可以使用铁、金和钻石来制造，它可以用来相对低成本的制造木板和木棍。木板和木棍现在必须使用斧子或锯子来制作，尽管身为下位替代，锯子的产量是斧子的两倍。"]
 			dependencies: ["0000000000000058"]
 			id: "0000000000000039"
 			tasks: [{
@@ -600,10 +600,10 @@
 			]
 		}
 		{
-			title: "Brick me up!"
+			title: "看，一块砖！"
 			x: 5.5d
 			y: 0.0d
-			description: ["Can be cooked at a campfire or in the Kiln."]
+			description: ["砖可以在营火或者窑炉中被烧制出来。"]
 			dependencies: ["000000000000003D"]
 			id: "0000000000000042"
 			tasks: [
@@ -635,7 +635,7 @@
 		{
 			x: 13.5d
 			y: -1.5d
-			description: ["You are going to need a lot of this stuff."]
+			description: ["你需要很多很多这东西。"]
 			dependencies: ["00000000000014E2"]
 			id: "0000000000000045"
 			tasks: [{
@@ -666,8 +666,8 @@
 			x: 1.5d
 			y: -7.5d
 			description: [
-				"This backpack will allow you to have some extra inventory space."
-				"Once equipped, use the backpack keybind to open the backpack inventory. (check your controls menu for the specific key)"
+				"背包可以给予你一些额外的背包空间。"
+				"将其装备到身上，使用指定的按键即可打开背包界面。（请打开控制界面来设置键位）"
 			]
 			dependencies: ["000000000000002E"]
 			id: "0000000000000049"
@@ -705,7 +705,7 @@
 			title: "Bed"
 			x: 5.5d
 			y: -6.0d
-			description: ["A place to kick off your boots and get some Zzzzz's."]
+			description: ["此时此刻，你终于能脱下靴子，舒服的睡个好觉了。"]
 			dependencies: ["000000000000002E"]
 			id: "0000000000000054"
 			tasks: [{
@@ -737,7 +737,7 @@
 		{
 			x: 16.5d
 			y: -1.5d
-			description: ["I feel like this is the start of the whole reason that you are here."]
+			description: ["此刻，我找到了我在这里的全部意义。"]
 			dependencies: ["0000000000000045"]
 			id: "0000000000000056"
 			tasks: [{
@@ -767,7 +767,7 @@
 		{
 			x: 19.0d
 			y: -1.5d
-			description: ["Clang! Clang! Clang! I can make so much with this!"]
+			description: ["锵！锵！锵！金属的声音无比美妙！"]
 			dependencies: ["0000000000000056"]
 			id: "0000000000000058"
 			tasks: [{
@@ -789,15 +789,15 @@
 			]
 		}
 		{
-			title: "Coke Oven"
+			title: "煤炭炼焦"
 			icon: "immersiveengineering:cokebrick"
 			x: 24.0d
 			y: -1.5d
 			shape: "gear"
 			description: [
-				"Place the Coke Brick in a 3x3x3 block and right-click with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil."
+				"将焦炉砖组合成一个3x3x3的立体结构，并手持工程锤右击它，以后你就可以在这里放置煤炭，从而生成焦炭和杂酚油。"
 				""
-				"This opens up so many engineering possibilities!"
+				"它打开了后续工程技术的可能性！"
 			]
 			dependencies: ["0000000000000058"]
 			size: 3.0d
