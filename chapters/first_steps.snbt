@@ -856,11 +856,9 @@
 			x: 20.0d
 			y: 0.0d
 			description: [
-				"Mattocks are advanced tools, and can be made from iron, gold or diamond. They function both as axes and shovels with regards to the blocks they can break, and have the right click functionality of axes, shovels, and hoes, being able to strip wood,"
-				"till coarse dirt, and create grass paths and farmland."
+				"鹤嘴锄是一种可以使用铁、金、钻石制作的进阶性质的工具，它兼具锄头和铲子的功能，同时它的右击功能也同时可以剥离树皮、开垦土地以及转化草径或耕地。"
 				""
-				"Note: since both hoes and shovels create different products when right clicking on grass blocks (shovels make paths, hoes make farmland), by sneaking or not sneaking, you can change which one is created (While sneaking, the hoe will function first,"
-				"otherwise the shovel will function first)."
+				"注意：锄头和铲子在右击草方块时的功能是不同的（铲子会将其转化为草径，而锄头则是耕地），不过你可以通过潜行来切换两种特性，在潜行时，锄头的特性会优先生效。"
 			]
 			dependencies: ["0000000000000058"]
 			id: "000000000000005E"
@@ -906,7 +904,7 @@
 		{
 			x: 19.0d
 			y: -5.5d
-			description: ["Watch out for lava when digging for these!"]
+			description: ["小心岩浆！"]
 			dependencies: ["0000000000000058"]
 			id: "0000000000000061"
 			tasks: [{
@@ -950,7 +948,7 @@
 		{
 			x: 18.0d
 			y: 0.0d
-			description: ["Man I can carry so many liquids in this bucket!"]
+			description: ["你看这个水桶，真的好大！"]
 			dependencies: ["0000000000000058"]
 			id: "0000000000000073"
 			tasks: [{
@@ -967,7 +965,7 @@
 		{
 			x: 0.0d
 			y: -7.5d
-			description: ["Will automatically drop items directly below it."]
+			description: ["让物品掉下去。"]
 			dependencies: ["000000000000002E"]
 			id: "0000000000000077"
 			tasks: [{
@@ -989,13 +987,13 @@
 			]
 		}
 		{
-			title: "Windows"
+			title: "窗户"
 			x: 9.0d
 			y: -5.0d
 			description: [
-				"Add some flair to those holes in your walls to see all the baddies through."
+				"在你的围墙上掏几个窗户出来，就能看到外面的坏家伙了。"
 				""
-				"By placing these window pieces around a log/plank/stone (check JEI for exact recipes) you can create decorative windows of the style of the center block."
+				"将窗户部件围着原木/木板/石头围一圈进行合成（JEI里能找到具体配方）可以合成有中间方块风格的窗户。"
 			]
 			dependencies: ["00000000000015B0"]
 			id: "0000000000000079"
@@ -1021,7 +1019,7 @@
 		{
 			x: 15.0d
 			y: -3.0d
-			description: ["SPARKS! SPARKS! SPARKS!"]
+			description: ["灵感喷发！"]
 			dependencies: ["0000000000000045"]
 			id: "000000000000008E"
 			tasks: [{
@@ -1045,7 +1043,7 @@
 		{
 			x: 14.5d
 			y: -4.0d
-			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."]
+			description: ["它可以从你的快捷栏随机向目标放置方块，使其更贴近自然。"]
 			dependencies: ["0000000000000045"]
 			id: "0000000000000090"
 			tasks: [{
@@ -1076,15 +1074,15 @@
 			title: "Just Enough Items"
 			x: -8.5d
 			y: -7.0d
-			subtitle: "In-game item and recipe browser"
+			subtitle: "游戏内的物品/配方浏览器"
 			description: [
-				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)"
+				"如何使用JEI（它会在物品界面的右侧显示所有游戏内的物品）"
 				""
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids and machines. "
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @notreepunch)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
+				"• 将鼠标悬浮在某个物品上并按下R键，可以显示如何合成该物品。"
+				"• 同理，按下U键则会显示该物品能够用来做什么物品，以及如何使用。"
+				"• 搜索栏中，在单词前加@符号，可以按照mod搜索。（比如：@notreepunch）"
+				"• 按下Ctrl+F可以直接选中搜索栏。"
+				"• 要收藏配方的话（收藏后，你可以在物品界面的左边更方便的选中配方）：鼠标悬浮在目标物品上并按下A。"
 				""
 			]
 			dependencies: ["0000000000000F88"]
@@ -1106,20 +1104,20 @@
 			x: -9.471768707482994d
 			y: 2.461564625850329d
 			description: [
-				"Menu access key: P (for more info and stats)"
+				"P键菜单（可以看到更详细的信息）"
 				""
-				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game."
+				"Project MMO 为玩家加入了一组可以随着游玩过程升级的技能，随着技能的升级，你可以得到更加强大的能力。"
 				""
-				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:"
-				"- Mining: increasing mining speed with each level;"
-				"- Excavation: chance to find treasures while digging;"
-				"- Combat: more damage dealt with weapons;"
+				"升级不同的技能所得到的特殊能力是不同的，例如："
+				"- 采矿：每一级都可以提升采矿速度；"
+				"- 挖掘：可以在挖掘时随机得到宝藏；"
+				"- 战斗：能通过武器造成更多的伤害；"
 				""
-				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome."
+				"在不同的生物群系中，获得经验的倍率也是不同的，例如在沙漠地区获得的种植经验会很少，而在海洋中游泳和钓鱼获得的经验会更多。"
 				""
-				"You can also create or join party with using /pmmo party create/accept/invite/leave command."
+				"你也可以通过 /pmmo party create/accept/invite/leave 指令使用自带的组队功能。"
 				""
-				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
+				"如果屏幕左侧的技能状态栏消失了，不必惊慌 —— 只要重启游戏就出来了。"
 			]
 			dependencies: ["0000000000001231"]
 			size: 1.25d
@@ -1136,14 +1134,14 @@
 			}]
 		}
 		{
-			title: "EL2 Text Guide"
+			title: "EL2 说明书"
 			icon: "itemfilters:tag"
 			x: -10.5d
 			y: -7.0d
 			description: [
-				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page."
+				"你可以在EL2的curseforge主页找到一份托管在Google Drive上的说明书。"
 				""
-				"Or manually by typing this into the browser of your choice:"
+				"或者直接一点，将这个url贴进你的浏览器里："
 				"https://bit.ly/el2-guide"
 			]
 			dependencies: ["0000000000000F88"]
@@ -1151,7 +1149,7 @@
 			tasks: [{
 				id: "00000000000000A0"
 				type: "checkmark"
-				title: "Text guide and where to find it"
+				title: "当你找到说明书后点我"
 			}]
 			rewards: [{
 				id: "00000000000003C4"
@@ -1162,7 +1160,7 @@
 		{
 			x: 16.5d
 			y: -3.0d
-			description: ["Hope you had fun getting this, you will need about a million more."]
+			description: ["希望你有点心理准备，这东西在日后会有数以百万计的需求。"]
 			dependencies: ["0000000000000056"]
 			id: "00000000000000A1"
 			tasks: [{
@@ -1189,8 +1187,8 @@
 			x: 16.5d
 			y: 4.0d
 			description: [
-				"Will allow you to passively collect resources when placed in a 1 deep block of water."
-				"If the water is flowing into the strainer you will get better efficiency."
+				"会为你缓慢的自动收集资源，只需要将其放进一格深的水里即可。"
+				"自然，如果放置位置的水是流动状态就更好了。"
 			]
 			dependencies: ["00000000000000B4"]
 			id: "00000000000000A6"
@@ -1222,7 +1220,7 @@
 		{
 			x: 15.0d
 			y: 5.0d
-			description: ["Creates worms and fertilizer by composting fruit and vegetables. "]
+			description: ["通过使用水果和蔬菜进行堆肥，获取肥料和蠕虫。"]
 			dependencies: ["00000000000000A6"]
 			id: "00000000000000A8"
 			tasks: [{
@@ -1247,7 +1245,7 @@
 		{
 			x: 15.0d
 			y: 3.0d
-			description: ["Collects fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."]
+			description: ["想抓到鱼或者其他相似的东西需要一些诱饵，更优质的滤网可以使用更长的时间，能收集到的材料类型也会更多。"]
 			dependencies: [
 				"00000000000000A6"
 				"00000000000000B0"
@@ -1281,7 +1279,7 @@
 		{
 			x: 15.0d
 			y: 4.0d
-			description: ["Can collect items such as stone, sticks, clay, and planks. Has higher levels of density for longer usage and different item probabilities."]
+			description: ["滤网可以收集到诸如石头、木棍、粘土、木板之类的东西，更优质的滤网可以使用更长的时间，能收集到的材料类型也会更多。"]
 			dependencies: ["00000000000000A6"]
 			id: "00000000000000AE"
 			tasks: [{
@@ -1310,10 +1308,10 @@
 			]
 		}
 		{
-			title: "Worms"
+			title: "蠕虫"
 			x: 13.5d
 			y: 4.0d
-			description: ["Wiggle Worm"]
+			description: ["蠕动的虫子"]
 			dependencies: ["00000000000000A8"]
 			id: "00000000000000B0"
 			tasks: [{
@@ -1340,7 +1338,7 @@
 		{
 			x: 10.5d
 			y: 4.0d
-			description: ["This will decrease the usage of bait in the strainer."]
+			description: ["可以降低滤网中诱饵的消耗。"]
 			dependencies: [
 				"00000000000000B0"
 				"000000000000041D"
@@ -1383,9 +1381,9 @@
 			x: 19.0d
 			y: 4.0d
 			description: [
-				"Some basic automation, though you will need to start expanding to more soon."
+				"基础的自动化工具，很快你就能探索到它更多的用途。"
 				""
-				"Will connect to whatever inventory you right click it to."
+				"可以连接到你右键点击到的任意容器。"
 			]
 			dependencies: ["0000000000000058"]
 			id: "00000000000000B4"
@@ -1411,7 +1409,7 @@
 		{
 			x: 20.0d
 			y: 3.0d
-			description: ["A highly customizable hopper that allows you to change the stack size, drop delay, and a customizable collection range up to 9x9. Can be placed upside down and keeps inventory when broken. Redstone controllable."]
+			description: ["一个高度定制化的漏斗，可以自定义堆叠数量、掉落延迟，以及高达9x9的缓冲区，可以倒置且即使被破坏，内部的缓冲区也可以保留。另外，它可以由红石信号控制。"]
 			dependencies: ["00000000000000B4"]
 			id: "00000000000000B6"
 			tasks: [{
@@ -1446,7 +1444,7 @@
 		{
 			x: 6.5d
 			y: -4.5d
-			description: ["A nice decorative table."]
+			description: ["十分精致的桌子。"]
 			dependencies: ["0000000000000054"]
 			id: "00000000000000B8"
 			tasks: [{
@@ -1469,10 +1467,10 @@
 			]
 		}
 		{
-			title: "Cupboards and Cabinets"
+			title: "碗橱和陈列柜"
 			x: 3.0d
 			y: -7.5d
-			description: ["Some slightly more decorative storage."]
+			description: ["一些很好看的储物容器。"]
 			dependencies: ["000000000000002E"]
 			id: "00000000000000BC"
 			tasks: [
@@ -1501,10 +1499,10 @@
 			]
 		}
 		{
-			title: "Bookshelves"
+			title: "书架"
 			x: 4.5d
 			y: -7.5d
-			description: ["Some nice decorative bookshelves that can hold the manuals from mods or self written books."]
+			description: ["一些很精致的书架，可以用来存放mod附带的书籍或者自己写的书。"]
 			dependencies: ["0000000000000054"]
 			id: "00000000000000BE"
 			tasks: [
@@ -1527,11 +1525,11 @@
 			}]
 		}
 		{
-			title: "Field of Dreams"
+			title: "应许之地"
 			x: 1.5d
 			y: -3.0d
 			shape: "gear"
-			description: ["The flint hoe will allow you to get started with some basic farming."]
+			description: ["燧石锄头可以让你进行一些简单的耕种活动。"]
 			dependencies: ["0000000000000030"]
 			size: 2.0d
 			id: "00000000000000C3"
@@ -1560,10 +1558,10 @@
 			]
 		}
 		{
-			title: "Slimeballs"
+			title: "粘液球"
 			x: -2.5d
 			y: 1.0d
-			description: ["Time to go slime hunting!"]
+			description: ["是时候去狩猎史莱姆了！"]
 			dependencies: ["0000000000000010"]
 			id: "00000000000000CF"
 			tasks: [{
@@ -1590,7 +1588,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
-			description: ["Some nice brick blocks to get yourself some nice engineering building style."]
+			description: ["一些漂亮的砖块，可以用来装点你的建筑。"]
 			dependencies: ["0000000000000042"]
 			id: "00000000000000D9"
 			tasks: [
@@ -1627,7 +1625,7 @@
 		{
 			x: 13.5d
 			y: 1.5d
-			description: ["You are going to have to go deep!"]
+			description: ["向着更深处前进！"]
 			dependencies: ["0000000000000045"]
 			id: "00000000000000E0"
 			tasks: [{
@@ -1650,10 +1648,10 @@
 			]
 		}
 		{
-			title: "Candle"
+			title: "蜡烛"
 			x: 6.5d
 			y: -7.5d
-			description: ["Better than a torch right?"]
+			description: ["比火把可好多了吧？"]
 			dependencies: ["0000000000000054"]
 			id: "00000000000000EB"
 			tasks: [{
@@ -1677,7 +1675,7 @@
 		{
 			x: 7.0d
 			y: -9.0d
-			description: ["An artistic not-torch."]
+			description: ["具有艺术感的照明物。"]
 			dependencies: ["00000000000000EB"]
 			id: "00000000000000ED"
 			tasks: [{
@@ -1702,7 +1700,7 @@
 		{
 			x: 13.5d
 			y: 3.0d
-			description: ["This lantern will be activated when you send it a redstone signal. Could be an interesting signal light."]
+			description: ["这种灯笼只有在收到红石信号的时候会亮起，很有趣的信号灯。"]
 			dependencies: ["00000000000000E0"]
 			id: "00000000000000F7"
 			tasks: [{
@@ -1752,7 +1750,7 @@
 		{
 			x: 18.0d
 			y: 1.5d
-			description: ["Can grow crops anywhere without water!"]
+			description: ["在没有水的前提下也可以种植作物！"]
 			dependencies: ["0000000000000073"]
 			id: "000000000000011D"
 			tasks: [{
@@ -1778,9 +1776,9 @@
 			x: -3.0d
 			y: -3.0d
 			description: [
-				"This quest will complete once you interact with a crafting table 256 times."
+				"这个任务会在你与合成台交互256次后自动完成。"
 				""
-				"*This will only be with the vanilla crafting table*"
+				"*当然，只能是原版的合成台*"
 			]
 			dependencies: ["0000000000000030"]
 			id: "00000000000002E9"
@@ -1800,7 +1798,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			description: ["The kiln is used for faster smelting of clay and sand based items."]
+			description: ["窑炉可以用来快速烧制粘土或沙子一类的物品。"]
 			dependencies: ["0000000000000042"]
 			id: "000000000000041D"
 			tasks: [{
@@ -1816,13 +1814,13 @@
 			}]
 		}
 		{
-			title: "Alternate Sleeping Arrangements"
+			title: "野外露营"
 			x: 4.5d
 			y: -4.5d
 			description: [
-				"Comforts adds new sleeping methods."
+				"增加一种新的睡眠方式。"
 				""
-				"The Sleeping bag is a portable bed for when you are travelling."
+				"睡袋可以在你旅行的时候，充当便携版的床。"
 			]
 			dependencies: ["0000000000000054"]
 			id: "0000000000000425"
